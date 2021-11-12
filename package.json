@@ -1,0 +1,32 @@
+{
+  "name": "ping-it",
+  "version": "1.0.0",
+  "description": "For the sake of checking the URL at the given interval and send to the slack channel if it is failed.",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0",
+    "mongoose": "^6.0.12"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node -r esm app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heinlinaung/ping-it.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/heinlinaung/ping-it/issues"
+  },
+  "homepage": "https://github.com/heinlinaung/ping-it#readme"
+}
