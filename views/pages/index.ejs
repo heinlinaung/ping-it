@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('../partials/head'); %>
+</head>
+<body class="container">
+
+    <header>
+        <%- include('../partials/header'); %>
+    </header>
+
+    <main>
+        <div class="jumbotron">
+            <h1>Ping List</h1>
+            <ul>
+                <% pings.forEach(function(ping) { %>
+                    <li>
+                        <strong><%= ping.name %></strong>
+                        url <%= ping.url %>, enabled <%= ping.enabled %>
+                    </li>
+                <% }); %>
+            </ul>
+        </div>
+    </main>
+
+    <footer>
+        <%- include('../partials/footer'); %>
+    </footer>
+
+</body>
+</html>

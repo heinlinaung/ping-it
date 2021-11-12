@@ -6,3 +6,4 @@ For the sake of checking the URL at the given interval and send to the slack cha
 - URL
 - Interval
 - Slack Channel
+- enabled	
